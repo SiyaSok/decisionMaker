@@ -147,9 +147,6 @@ const ModelForm = ({ modelId, setModeId }) => {
       {decisionSaved && (
         <>
           <DecisionResult decision={decisionResult} />
-          <h3 className='text-xl font-bold mb-4'>
-            Decision submitted successfully!
-          </h3>
         </>
       )}
     </>
