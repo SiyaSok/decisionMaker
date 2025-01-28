@@ -71,6 +71,9 @@ const ModelForm = ({ modelId, setModeId }) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    setDecisionSaved(false);
+    setError("");
+    setDecisionResult("");
     try {
       let data = JSON.stringify({
         data: {
